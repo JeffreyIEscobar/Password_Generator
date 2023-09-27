@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Generator</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Password Generator</h1>
+    <form action="/" method="POST">
+        <label for="password-length">Enter the desired password length:</label>
+        <input type="number" id="password-length" name="password_length" required>
+        <input type="submit" value="Generate Password">
+    </form>
+    {% if password %}
+        <h2>Your Generated Password:</h2>
+        <p>{{ password }}</p>
+    {% endif %}
+</body>
+</html>
