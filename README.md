@@ -1,6 +1,6 @@
 # Password Generator
 
-This is a simple web application built with Flask that generates random passwords based on user input.
+This is a simple web application built with Flask that generates random passwords based on user input. User can choose the amount of characters and press 'Generate Password'
 
 ## Technologies Used
 
