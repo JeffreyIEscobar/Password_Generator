@@ -25,7 +25,7 @@ This is a simple web application built with Flask that generates random password
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please create an issue or submit a pull request.
+Contributions are welcome! If you'd like to enhance or customize this application, feel free to fork this repository and submit a pull request.
 
 ## License
 
