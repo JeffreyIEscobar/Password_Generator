@@ -12,8 +12,8 @@ This is a simple web application built with Flask that generates random password
 
 1. Clone this repository to your local machine.
 2. Create and activate a virtual environment (optional but recommended).
-3. Install the required packages using `pip install -r requirements.txt`.
-4. Run the Flask app with `python app.py`.
+3. Install the required packages using `pip3 install flask`.
+4. Run the Flask app with `python3 app.py`.
 5. Access the app in your web browser at `http://127.0.0.1:5000/`.
 6. Enter the desired password length and click "Generate Password."
 
